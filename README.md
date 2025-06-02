@@ -152,4 +152,25 @@ src/
    ```
 
 3. **Update Generator**:
-   ```ty
+   ```typescript
+   // In src/lib/generator.ts
+   } else if (type === 'new-architecture') {
+       copyTemplate('new-architecture', targetPath);
+   ```
+
+4. **Test**:
+   ```bash
+   npm run build
+   create-arch test --type new-architecture
+   ```
+
+## 🧪 Testing
+
+```bash
+# Run tests (when implemented)
+npm test
+
+# Manual testing
+npm run build
+create-arch test-monolith --type monolith
+create-arch test-microservice --type microservice
