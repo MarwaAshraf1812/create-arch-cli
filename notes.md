@@ -1,0 +1,1 @@
+## When using ES modules ("type": "module" in package.json), Node.js requires explicit file extensions for imports. TypeScript compiles .ts files to .js files, so even though your source files are .ts, you must import them with the .js extension because that's what they become after compilation.

@@ -1,0 +1,27 @@
+{
+  "name": "create-arch-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-arch": "dist/bin/index.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "typescript": "^5.8.3"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "undici-types": "^6.21.0"
+  },
+  "description": ""
+}
